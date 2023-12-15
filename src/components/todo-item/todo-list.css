@@ -1,0 +1,36 @@
+.todos_wrapper {
+    width: 100%;
+    padding: 0 40px;
+    margin: 20px 0;
+}
+.todo_title {
+    margin-bottom: 20px;
+}
+.todo_title h3{
+    font-weight: bold;
+    font-size: 26px;
+
+}
+.todo_status_text {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.addTodo_button {
+    position: fixed;
+    /*right: 20px;*/
+    bottom: 20px;
+    z-index: 1;
+    width: 80%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.addTodo_button:hover {
+   background-color: #cbffbd;
+    color: black;
+}
